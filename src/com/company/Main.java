@@ -15,5 +15,8 @@ public class Main {
                             }
                         // line is not visible here.
                     }
+        catch (Exception e) {
+            // don’t worry about exceptions for now
+        }
             }
 }
