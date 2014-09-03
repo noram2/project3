@@ -11,12 +11,13 @@ public class Main {
         try(BufferedReader br = new BufferedReader(new FileReader(file))) {
             for(String line; (line = br.readLine()) != null; ) {
                 // process the line.
-                catch (Exception e) {
-                    // don’t worry about exceptions for now
-                }
+
             }
             // line is not visible here.
 
+        }
+        catch (Exception e) {
+            // don’t worry about exceptions for now
         }
     }
 }
